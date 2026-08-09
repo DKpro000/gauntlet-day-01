@@ -2,8 +2,8 @@
 #include <iostream>
 
 int main() {
-    const Vec2 a(3, 4);
-    const Vec2 b(1, 2);
+    Vec2 a(3, 4);
+    Vec2 b(1, 2);
     std::cout << "a = (" << a.x() << ", " << a.y() << "), length " << a.length() << std::endl;
     std::cout << "b = (" << b.x() << ", " << b.y() << "), length " << b.length() << std::endl;
     std::cout << "a + b = (" << a.plus(b).x() << ", " << a.plus(b).y() << ")" << std::endl;

@@ -2,7 +2,7 @@
 
 class Timer {
 public:
-    Timer(int startMs) : m_elapsedMs(startMs) {}
+    Timer(int startMs);
     void advance(int deltaMs);
     int elapsedMs() const;
 private:
